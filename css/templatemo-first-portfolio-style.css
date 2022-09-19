@@ -507,11 +507,11 @@ strong {
 .hero-image-wrap {
   background: var(--white-color);
   border-radius: 9%;
-  width: 500px;
-  height: 306px;
+  width: 475px;
+  height: 340px;
   position: absolute;
   z-index: 22;
-  top: -50px;
+  top: 0px;
   right: 0;
   left: 0;
   margin: auto;
@@ -727,6 +727,7 @@ strong {
   margin-bottom: 24px;
   padding: 40px;
   transition: all ease 0.5s;
+  max-height: 405px;
 }
 
 .projects-thumb:hover {
@@ -1120,6 +1121,7 @@ strong {
   .projects-thumb {
     margin-top: 0;
     margin-bottom: 32px;
+    max-height: 405px;
   }
 
   .contact-info {

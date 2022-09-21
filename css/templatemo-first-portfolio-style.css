@@ -774,6 +774,7 @@ strong {
 -----------------------------------------*/
 .contact {
   background: var(--section-bg-color);
+  height: 100vh;
 }
 
 .contact-info {

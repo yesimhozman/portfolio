@@ -731,6 +731,7 @@ strong {
   padding: 40px;
   transition: all ease 0.5s;
   max-height: 405px;
+  min-height: 405px;
 }
 
 .projects-thumb:hover {

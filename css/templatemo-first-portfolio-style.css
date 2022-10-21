@@ -76,7 +76,7 @@ h1 {
 
 h2 {
   font-size: var(--h2-font-size);
-  color: var(--secondary-color);
+  color: var( --dark-color);
   letter-spacing: -3px;
 }
 
@@ -395,7 +395,7 @@ strong {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  font-weight: bold;
 }
 
 .navbar-toggler {
@@ -764,7 +764,7 @@ strong {
 .projects-tag {
   font-size: var(--menu-font-size);
   font-weight: var(--font-weight-medium);
-  color: var(--secondary-color);
+  color: var(--dark-color);
   text-transform: uppercase;
   margin-bottom: 5px;
 }
@@ -874,7 +874,7 @@ strong {
   background: var(--secondary-color);
   border: none;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  color: var(--dark-color);
   font-weight: var(--font-weight-bold);
   transition: all 0.3s;
   margin-bottom: 0;
@@ -884,6 +884,7 @@ strong {
 .custom-form button[type="submit"]:focus {
   background: var(--primary-color);
   border-color: transparent;
+  color:  var(--white-color);
 }
 
 

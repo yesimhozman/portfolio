@@ -731,7 +731,7 @@ strong {
   padding: 40px;
   transition: all ease 0.5s;
   max-height: 405px;
-  min-height: 405px;
+  min-height: 460px;
 }
 
 .projects-thumb:hover {
@@ -769,6 +769,9 @@ strong {
   margin-bottom: 5px;
 }
 
+.projects-buttons {
+  margin-bottom: 2em;
+}
 
 /*---------------------------------------
   CONTACT              
